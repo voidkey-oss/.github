@@ -40,6 +40,17 @@ Voidkey enables organizations to implement zero-trust access patterns by brokeri
 
 The project uses TypeScript for core logic and server components, Go for the CLI client, and Docker for local development. Jest is used for testing across TypeScript components.
 
+## Contributing
+
+We welcome contributions from the community! Please see our contribution guidelines and community standards:
+
+- 📋 **[Contributing Guidelines](https://github.com/voidkey-oss/.github/blob/main/CONTRIBUTING.md)** - How to contribute to Voidkey
+- 🤝 **[Code of Conduct](https://github.com/voidkey-oss/.github/blob/main/CODE_OF_CONDUCT.md)** - Our community standards
+- 🔒 **[Security Policy](https://github.com/voidkey-oss/.github/blob/main/SECURITY.md)** - How to report security vulnerabilities
+- 🐛 **[Report a Bug](https://github.com/voidkey-oss/.github/issues/new?template=bug_report.yml)** - Found an issue? Let us know
+- ✨ **[Request a Feature](https://github.com/voidkey-oss/.github/issues/new?template=feature_request.yml)** - Have an idea for improvement?
+- ❓ **[Ask a Question](https://github.com/voidkey-oss/.github/issues/new?template=question.yml)** - Need help with Voidkey?
+
 ---
 
 For questions or more information, contact: **andrew@voidkey.com**
