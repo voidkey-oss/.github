@@ -1,0 +1,59 @@
+name: Question
+description: Ask a question about Voidkey usage or configuration
+title: "[Question]: "
+labels: ["question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question about using Voidkey? Please check the documentation first, then ask away!
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which component is your question about?
+      options:
+        - broker-core
+        - broker-server
+        - cli
+        - sandbox
+        - configuration
+        - deployment
+        - general usage
+        - other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+      placeholder: Ask your question here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to accomplish? Any relevant setup details?
+      placeholder: Provide context about what you're trying to do...
+
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What You've Tried
+      description: What have you already tried? What documentation have you checked?
+      placeholder: Describe what you've already tried...
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have checked the documentation
+          required: true
+        - label: I have searched existing issues
+          required: true
