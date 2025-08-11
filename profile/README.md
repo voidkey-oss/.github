@@ -12,6 +12,7 @@ Voidkey enables organizations to implement zero-trust access patterns by brokeri
 - **[broker-server](https://github.com/voidkey-oss/broker-server)** - NestJS HTTP server exposing the broker API
 - **[cli](https://github.com/voidkey-oss/cli)** - Go CLI client for interacting with the broker
 - **[sandbox](https://github.com/voidkey-oss/sandbox)** - Docker development environment with Keycloak and MinIO
+- **[docs](https://github.com/voidkey-oss/docs)** - Documentation website built with Astro
 
 ## Key Features
 
