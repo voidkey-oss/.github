@@ -1,6 +1,8 @@
-# [Voidkey](https://docs.voidkey.com)
+# Voidkey
 
 Voidkey is a zero-trust credential broker system that provides secure, temporary credential minting for cloud resources through OIDC-based authentication.
+
+### [Docs Website](https://docs.voidkey.com)
 
 ## Overview
 
